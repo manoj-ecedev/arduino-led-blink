@@ -45,9 +45,9 @@ void loop()
   delay(500); 
   digitalWrite(led, LOW);
   delay(500);
-}
-```  <!-- This ends the code block -->
-
+} 
+ 
+``` 
 ## 🧠 Learning Outcomes
 
 - Learned how to use `digitalWrite()` and `delay()` functions in Arduino
