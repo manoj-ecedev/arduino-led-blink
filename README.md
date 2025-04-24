@@ -31,15 +31,18 @@ To blink an LED at 1-second intervals using the Arduino Uno board.
 ---
 
 ## 🧠 Code Explanation
+```cpp
 
-
-void setup() {
-  pinMode(13, OUTPUT); // Set pin 13 to output mode
+int led=13;
+void setup()
+{
+  pinMode(led, OUTPUT);
 }
 
-void loop() {
-  digitalWrite(13, HIGH); 
-  delay(500);          
-  digitalWrite(13, LOW);  
-  delay(500);           
+void loop()
+{
+  digitalWrite(led, HIGH);
+  delay(500); 
+  digitalWrite(led, LOW);
+  delay(500);
 }
