@@ -46,3 +46,18 @@ void loop()
   digitalWrite(led, LOW);
   delay(500);
 }
+```  <!-- This ends the code block -->
+
+## 🧠 Learning Outcomes
+
+- Learned how to use `digitalWrite()` and `delay()` functions in Arduino
+- Understood basic circuit setup with an LED and resistor
+- Practiced using pinMode and loop structure
+- Gained confidence in Tinkercad circuit design
+
+---
+
+## 📊 Project Status
+
+✅ Completed — Basic LED Blink is working perfectly on both hardware and simulator  
+🚀 Next Goal — Add button control or use PWM to fade LED
