@@ -24,7 +24,7 @@ To blink an LED at 1-second intervals using the Arduino Uno board.
 
 ## 💡 Circuit Diagram
 
-![Circuit Diagram](circuit-diagram.jpg)  
+![Circuit Diagram](circuit-diagram.png)  
 *LED is connected to pin 13 via a resistor.*
 
 
